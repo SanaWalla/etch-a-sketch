@@ -1,0 +1,19 @@
+body{
+    max-width: 100%;
+}
+
+
+.square {
+    border: 0px black solid;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 640px;
+    border: 2px solid black;
+}
+
