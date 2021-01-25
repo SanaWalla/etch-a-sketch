@@ -1,10 +1,40 @@
 body{
     max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
 }
 
+h1{
+    text-align: center;
+}
 
-.square {
-    border: 0px black solid;
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.buttonContainer button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
+
+.buttonContainer button:hover{
+    background-color: lightcyan;
+}
+
+.buttonContainer button:active{
+    background-color: lightblue;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -15,5 +45,7 @@ body{
     height: 640px;
     width: 640px;
     border: 2px solid black;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
